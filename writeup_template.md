@@ -27,6 +27,7 @@ The goals / steps of this project are the following:
 [image6]: ./test_images/sing3.jpg
 [image7]: ./test_images/sing4.jpg
 [image8]: ./test_images/sing5.jpg
+[image9]: ./softmax_predictions.png
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -123,12 +124,20 @@ The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-I did not even know what image representes what.
+test image labels
 
-But I guess, the model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+1.No Entry
+2.Turn Right Ahead
+3.Stop
+4.Speed Limit(50)
+5.General Caution
+
+My model was able to predict 3 out of 5 correct. I felt kind of disappointed because I expected more accurate model.
+Test image 2 and 3 were misclassified. I dont know why it couldnt predict accurately.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
-Even though the prediction on trainig and validation was good, the model was bad at predicting testing datasets accuratelly.
+The following image is the representation of how the model predict each image.
+![alt_text][image9]
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
