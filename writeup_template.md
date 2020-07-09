@@ -22,11 +22,11 @@ The goals / steps of this project are the following:
 [image1]: ./visualize_train_data.png
 [image2]: ./sample_images.png
 [image3]: ./preprocessed_image.png
-[image4]: ./test_images/sing1.jpg
-[image5]: ./test_images/sing2.jpg
-[image6]: ./test_images/sing3.jpg
-[image7]: ./test_images/sing4.jpg
-[image8]: ./test_images/sing5.jpg
+[image4]: ./test_images/image1.png
+[image5]: ./test_images/image2.png
+[image6]: ./test_images/image3.png
+[image7]: ./test_images/image4.png
+[image8]: ./test_images/image5.jpeg
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
